@@ -28,6 +28,7 @@ I created this Python script to allow the user to find all words in any board re
 2. Verify Installation
 - Open a terminal or command prompt.
 - Type the following command and press Enter:
+
   ```sh
   python --version
   ```
@@ -56,10 +57,12 @@ I created this Python script to allow the user to find all words in any board re
 
 - To run the script, you have two options:
   - Give the script no arguments (which will default to checking the board4.txt file, as well as the twl06.txt dictionary)
+
     ```sh
     python 04_tests.py
     ```
   - Give the script a board and a dictionary (where <your_board.txt> and <your_dictionary.txt> are replaced with your text files.)
+
     ```sh
     python 04_tests.py <your_board.txt> <your_dictionary.txt>
     ```
